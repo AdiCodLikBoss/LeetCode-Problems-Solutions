@@ -1,10 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+// Class of a single Trie Node
 class Node {
     public:
      Node* left;
      Node* right;
 };
+
+// Trie Class
 class Trie {
     Node* root;
     public:
@@ -62,6 +66,7 @@ class Trie {
     }
 };
 
+// class to find maximum xor pair in a vector
 class Solution {
 public:
     int findMaximumXOR(vector<int>& nums) {
