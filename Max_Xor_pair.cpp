@@ -54,6 +54,7 @@ class Trie {
         }
         return curr_ans;
     }
+    // function find the maximum xor pair
     int max_xor_helper(vector<int> &vec) {
         int i;
         int max_xor = 0;
